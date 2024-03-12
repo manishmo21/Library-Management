@@ -1,0 +1,62 @@
+
+#add-book-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.ad{
+    margin-right: 30px;
+}
+.addd{
+   margin-left: 30px;
+}
+.lib{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#book-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#book-table th, #book-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#book-table th {
+    background-color: #f2f2f2;
+}
+
+.action-button {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.borrow-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+.return-button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+}
+
+.update-button {
+    background-color: #f8ac30;
+    color: white;
+    border: none;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
